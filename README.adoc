@@ -1,7 +1,8 @@
-= csoftz-spring-mvc-oracle-country-use-starter
-
+= csoftz-spring-mvc-oracle-country-use-libs
 V2025.1.0
 
-Consume the starter
+Consume the starters defined in 
 
-This only has a Controller.
+* csoftz-oracle-country-controller-starter
+* csoftz-oracle-country-service-starter
+

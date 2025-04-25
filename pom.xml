@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.csoftz</groupId>
-    <artifactId>csoftz-spring-mvc-oracle-country-use-starter</artifactId>
+    <artifactId>csoftz-spring-mvc-oracle-country-use-libs</artifactId>
     <version>2025.1.0</version>
-    <name>csoftz-spring-mvc-oracle-country-use-starter</name>
-    <description>JDBC Template centric app POC.</description>
+    <name>csoftz-spring-mvc-oracle-country-use-libs</name>
+    <description>JDBC Template centric app POC. Use libraries defined in companion starters (Service, Controller).</description>
     <properties>
         <java.version>21</java.version>
         <csoftz-spring-mvc-oracle-country-starter.version>2025.1.0</csoftz-spring-mvc-oracle-country-starter.version>
