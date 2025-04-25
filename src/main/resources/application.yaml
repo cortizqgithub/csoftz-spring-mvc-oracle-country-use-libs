@@ -14,3 +14,13 @@ logging:
     org:
       springframework:
         jdbc: DEBUG
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"  # Exposes all endpoints
+      base-path: /actuator  # Default base path for actuator endpoints
+  endpoint:
+    health:
+      show-details: always

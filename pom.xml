@@ -12,29 +12,22 @@
     <artifactId>csoftz-spring-mvc-oracle-country-use-libs</artifactId>
     <version>2025.1.0</version>
     <name>csoftz-spring-mvc-oracle-country-use-libs</name>
-    <description>JDBC Template centric app POC. Use libraries defined in companion starters (Service, Controller).</description>
+    <description>JDBC Template centric app POC. Use libraries defined in companion starters (Service, Controller).
+    </description>
     <properties>
         <java.version>21</java.version>
-        <csoftz-spring-mvc-oracle-country-starter.version>2025.1.0</csoftz-spring-mvc-oracle-country-starter.version>
+        <csoftz-oracle-country-controller-starter.version>2025.1.0</csoftz-oracle-country-controller-starter.version>
     </properties>
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>com.acme</groupId>
-                <artifactId>csoftz-spring-mvc-oracle-country-starter</artifactId>
-                <version>${csoftz-spring-mvc-oracle-country-starter.version}</version>
+                <groupId>com.acme.country</groupId>
+                <artifactId>csoftz-oracle-country-controller-starter</artifactId>
+                <version>${csoftz-oracle-country-controller-starter.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-validation</artifactId>
-        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
@@ -42,8 +35,12 @@
             <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>com.acme</groupId>
-            <artifactId>csoftz-spring-mvc-oracle-country-starter</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.acme.country</groupId>
+            <artifactId>csoftz-oracle-country-controller-starter</artifactId>
         </dependency>
 
         <dependency>
